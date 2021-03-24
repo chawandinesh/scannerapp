@@ -58,7 +58,7 @@ export default function HomeScreen(props) {
           right: height * 0.04,
         }}>
         <TouchableOpacity
-          onClick={() => props.navigation.navigate('ScannerScreen')}>
+          onPress={() => props.navigation.navigate('ScannerScreen')}>
           <Icon raised color="blue" name="plus" type="entypo" />
         </TouchableOpacity>
       </View>
